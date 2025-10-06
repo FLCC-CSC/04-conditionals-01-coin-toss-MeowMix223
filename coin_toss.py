@@ -14,7 +14,7 @@ def flip_coin():
   if number >= 51:
     return "Tails"
   else:
-    return :Heads"
+    return: "Heads"
 result=flip_coin()
 print("===== Coin Flipper =====")
 print(result)
