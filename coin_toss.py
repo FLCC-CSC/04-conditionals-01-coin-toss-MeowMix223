@@ -1,14 +1,23 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Emma Edwards
+# DATE: 10/5/25
+# BRIEF DESCRIPTION:  coin toss lab
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+import random
+def flip_coin():
+  number = random.randint(1,100)
+  if number >= 51:
+    return "Tails"
+  else:
+    return :Heads"
+result=flip_coin()
+print("===== Coin Flipper =====")
+print(result)
 
 
 
